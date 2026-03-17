@@ -1,0 +1,57 @@
+projects:
+  aws/_stacks/base:
+    repo: git@github.com:hops-ops/aws-base-stack.git
+
+  aws/_stacks/crossplane:
+    repo: git@github.com:hops-ops/aws-crossplane-stack.git
+
+  aws/_stacks/dns:
+    repo: git@github.com:hops-ops/aws-dns-stack.git
+
+  aws/_stacks/observe:
+    repo: git@github.com:hops-ops/aws-observe-stack.git
+
+  aws/_stacks/secret:
+    repo: git@github.com:hops-ops/aws-secret-stack.git
+
+  aws/account:
+    repo: git@github.com:hops-ops/aws-account.git
+
+  aws/actions-connector:
+    repo: git@github.com:hops-ops/aws-actions-connector.git
+
+  aws/auto-eks-cluster:
+    repo: git@github.com:hops-ops/aws-auto-eks-cluster.git
+
+  aws/foundation:
+    repo: git@github.com:hops-ops/aws-foundation.git
+
+  aws/identity-center:
+    repo: git@github.com:hops-ops/aws-identity-center.git
+
+  aws/irsa:
+    repo: git@github.com:hops-ops/aws-irsa.git
+
+  aws/network:
+    repo: git@github.com:hops-ops/aws-network.git
+
+  aws/organization:
+    repo: git@github.com:hops-ops/aws-organization.git
+
+  aws/pod-identity:
+    repo: git@github.com:hops-ops/aws-pod-identity.git
+
+  aws/ram-share:
+    repo: git@github.com:hops-ops/aws-ram-share.git
+
+  stacks/istio:
+    repo: git@github.com:hops-ops/istio-stack.git
+
+  stacks/knative:
+    repo: git@github.com:hops-ops/knative-stack.git
+
+  stacks/observe:
+    repo: git@github.com:hops-ops/observe-stack.git
+
+  stacks/psql:
+    repo: git@github.com:hops-ops/psql-stack.git
