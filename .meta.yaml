@@ -1,19 +1,4 @@
 projects:
-  aws/_stacks/base:
-    repo: git@github.com:hops-ops/aws-base-stack.git
-
-  aws/_stacks/crossplane:
-    repo: git@github.com:hops-ops/aws-crossplane-stack.git
-
-  aws/_stacks/dns:
-    repo: git@github.com:hops-ops/aws-dns-stack.git
-
-  aws/_stacks/observe:
-    repo: git@github.com:hops-ops/aws-observe-stack.git
-
-  aws/_stacks/secret:
-    repo: git@github.com:hops-ops/aws-secret-stack.git
-
   aws/account:
     repo: git@github.com:hops-ops/aws-account.git
 
@@ -47,17 +32,32 @@ projects:
   aws/spot-feed:
     repo: git@github.com:hops-ops/aws-spot-feed.git
 
-  stacks/gitops:
+  stacks/aws/base:
+    repo: git@github.com:hops-ops/aws-base-stack.git
+
+  stacks/aws/crossplane:
+    repo: git@github.com:hops-ops/aws-crossplane-stack.git
+
+  stacks/aws/dns:
+    repo: git@github.com:hops-ops/aws-dns-stack.git
+
+  stacks/aws/observe:
+    repo: git@github.com:hops-ops/aws-observe-stack.git
+
+  stacks/aws/secret:
+    repo: git@github.com:hops-ops/aws-secret-stack.git
+
+  stacks/k8s/gitops:
     repo: git@github.com:hops-ops/gitops-stack.git
 
-  stacks/istio:
+  stacks/k8s/istio:
     repo: git@github.com:hops-ops/istio-stack.git
 
-  stacks/knative:
+  stacks/k8s/knative:
     repo: git@github.com:hops-ops/knative-stack.git
 
-  stacks/observe:
+  stacks/k8s/observe:
     repo: git@github.com:hops-ops/observe-stack.git
 
-  stacks/psql:
+  stacks/k8s/psql:
     repo: git@github.com:hops-ops/psql-stack.git
