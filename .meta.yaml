@@ -44,6 +44,9 @@ projects:
   aws/ram-share:
     repo: git@github.com:hops-ops/aws-ram-share.git
 
+  aws/spot-feed:
+    repo: git@github.com:hops-ops/aws-spot-feed.git
+
   stacks/gitops:
     repo: git@github.com:hops-ops/gitops-stack.git
 
