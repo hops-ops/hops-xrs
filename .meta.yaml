@@ -32,8 +32,8 @@ projects:
   aws/spot-feed:
     repo: git@github.com:hops-ops/aws-spot-feed.git
 
-  stacks/aws/base:
-    repo: git@github.com:hops-ops/aws-base-stack.git
+  stacks/aws/lbc:
+    repo: git@github.com:hops-ops/aws-lbc-stack.git
 
   stacks/aws/crossplane:
     repo: git@github.com:hops-ops/aws-crossplane-stack.git
