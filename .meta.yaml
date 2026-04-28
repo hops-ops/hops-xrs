@@ -67,3 +67,6 @@ projects:
 
   stacks/k8s/psql-cluster:
     repo: git@github.com:hops-ops/psql-cluster.git
+
+  stacks/k8s/psql-branch:
+    repo: git@github.com:hops-ops/psql-branch.git
