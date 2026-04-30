@@ -8,11 +8,17 @@ projects:
   aws/auto-eks-cluster:
     repo: git@github.com:hops-ops/aws-auto-eks-cluster.git
 
+  aws/cost-report:
+    repo: git@github.com:hops-ops/aws-cost-report.git
+
   aws/foundation:
     repo: git@github.com:hops-ops/aws-foundation.git
 
   aws/identity-center:
     repo: git@github.com:hops-ops/aws-identity-center.git
+
+  aws/ipam:
+    repo: git@github.com:hops-ops/aws-ipam.git
 
   aws/irsa:
     repo: git@github.com:hops-ops/aws-irsa.git
@@ -47,6 +53,12 @@ projects:
   stacks/aws/secret:
     repo: git@github.com:hops-ops/aws-secret-stack.git
 
+  stacks/cloudflare/dns:
+    repo: git@github.com:hops-ops/cloudflare-dns-stack.git
+
+  stacks/k8s/cert:
+    repo: git@github.com:hops-ops/cert-stack.git
+
   stacks/k8s/gitops:
     repo: git@github.com:hops-ops/gitops-stack.git
 
@@ -65,8 +77,8 @@ projects:
   stacks/k8s/volume-snapshot:
     repo: git@github.com:hops-ops/volume-snapshot-stack.git
 
-  stacks/k8s/psql-cluster:
+  client/psql-cluster:
     repo: git@github.com:hops-ops/psql-cluster.git
 
-  stacks/k8s/psql-branch:
+  client/psql-branch:
     repo: git@github.com:hops-ops/psql-branch.git
