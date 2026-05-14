@@ -56,6 +56,9 @@ projects:
   stacks/cloudflare/dns:
     repo: git@github.com:hops-ops/cloudflare-dns-stack.git
 
+  stacks/k8s/auth:
+    repo: git@github.com:hops-ops/auth-stack.git
+
   stacks/k8s/cert:
     repo: git@github.com:hops-ops/cert-stack.git
 
