@@ -74,8 +74,14 @@ projects:
   stacks/k8s/observe:
     repo: git@github.com:hops-ops/observe-stack.git
 
+  stacks/k8s/policy:
+    repo: git@github.com:hops-ops/policy-stack.git
+
   stacks/k8s/psql:
     repo: git@github.com:hops-ops/psql-stack.git
+
+  stacks/k8s/security:
+    repo: git@github.com:hops-ops/security-stack.git
 
   stacks/k8s/volume-snapshot:
     repo: git@github.com:hops-ops/volume-snapshot-stack.git
