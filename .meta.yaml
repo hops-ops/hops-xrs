@@ -56,6 +56,9 @@ projects:
   stacks/cloudflare/dns:
     repo: git@github.com:hops-ops/cloudflare-dns-stack.git
 
+  stacks/k8s/analytics:
+    repo: git@github.com:hops-ops/analytics-stack.git
+
   stacks/k8s/auth:
     repo: git@github.com:hops-ops/auth-stack.git
 
@@ -86,8 +89,14 @@ projects:
   stacks/k8s/volume-snapshot:
     repo: git@github.com:hops-ops/volume-snapshot-stack.git
 
-  client/psql-cluster:
-    repo: git@github.com:hops-ops/psql-cluster.git
+  charts/openpanel-chart:
+    repo: git@github.com:hops-ops/openpanel-chart.git
 
-  client/psql-branch:
-    repo: git@github.com:hops-ops/psql-branch.git
+  providers/terraform-provider-openpanel:
+    repo: git@github.com:hops-ops/terraform-provider-openpanel.git
+
+  providers/provider-openpanel:
+    repo: git@github.com:hops-ops/provider-openpanel.git
+
+  tenant:
+    repo: git@github.com:hops-ops/tenant.git
