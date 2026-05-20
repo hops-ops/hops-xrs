@@ -38,6 +38,9 @@ projects:
   aws/spot-feed:
     repo: git@github.com:hops-ops/aws-spot-feed.git
 
+  aws/smtp-sender:
+    repo: git@github.com:hops-ops/aws-smtp-sender.git
+
   stacks/aws/lbc:
     repo: git@github.com:hops-ops/aws-lbc-stack.git
 
