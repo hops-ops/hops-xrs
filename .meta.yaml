@@ -59,6 +59,27 @@ projects:
   stacks/cloudflare/dns:
     repo: git@github.com:hops-ops/cloudflare-dns-stack.git
 
+  stacks/crossplane/crossplane-aws-provider:
+    repo: git@github.com:hops-ops/crossplane-aws-provider.git
+
+  stacks/crossplane/crossplane-github-provider:
+    repo: git@github.com:hops-ops/crossplane-github-provider.git
+
+  stacks/crossplane/crossplane-helm-provider:
+    repo: git@github.com:hops-ops/crossplane-helm-provider.git
+
+  stacks/crossplane/crossplane-kubernetes-provider:
+    repo: git@github.com:hops-ops/crossplane-kubernetes-provider.git
+
+  stacks/crossplane/crossplane-listmonk-provider:
+    repo: git@github.com:hops-ops/crossplane-listmonk-provider.git
+
+  stacks/crossplane/crossplane-openpanel-provider:
+    repo: git@github.com:hops-ops/crossplane-openpanel-provider.git
+
+  stacks/crossplane/crossplane-zitadel-provider:
+    repo: git@github.com:hops-ops/crossplane-zitadel-provider.git
+
   stacks/k8s/analytics:
     repo: git@github.com:hops-ops/analytics-stack.git
 
@@ -70,6 +91,9 @@ projects:
 
   stacks/k8s/gitops:
     repo: git@github.com:hops-ops/gitops-stack.git
+
+  stacks/k8s/flux-gitops:
+    repo: git@github.com:hops-ops/flux-gitops-stack.git
 
   stacks/k8s/istio:
     repo: git@github.com:hops-ops/istio-stack.git
