@@ -11,6 +11,9 @@ projects:
   aws/cost-report:
     repo: git@github.com:hops-ops/aws-cost-report.git
 
+  aws/eks-node-group:
+    repo: git@github.com:hops-ops/aws-eks-node-group.git
+
   aws/foundation:
     repo: git@github.com:hops-ops/aws-foundation.git
 
