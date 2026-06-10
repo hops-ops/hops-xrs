@@ -53,6 +53,9 @@ projects:
   stacks/aws/dns:
     repo: git@github.com:hops-ops/aws-dns-stack.git
 
+  stacks/aws/efs:
+    repo: git@github.com:hops-ops/aws-efs-stack.git
+
   stacks/aws/observe:
     repo: git@github.com:hops-ops/aws-observe-stack.git
 
