@@ -8,8 +8,14 @@ projects:
   aws/auto-eks-cluster:
     repo: git@github.com:hops-ops/aws-auto-eks-cluster.git
 
+  aws/eks-cluster:
+    repo: git@github.com:hops-ops/aws-eks-cluster.git
+
   aws/cost-report:
     repo: git@github.com:hops-ops/aws-cost-report.git
+
+  aws/ecr-registry-cache:
+    repo: git@github.com:hops-ops/aws-ecr-registry-cache.git
 
   aws/eks-node-group:
     repo: git@github.com:hops-ops/aws-eks-node-group.git
@@ -59,6 +65,9 @@ projects:
   stacks/aws/observe:
     repo: git@github.com:hops-ops/aws-observe-stack.git
 
+  stacks/aws/registry-cache:
+    repo: git@github.com:hops-ops/aws-registry-cache-stack.git
+
   stacks/aws/secret:
     repo: git@github.com:hops-ops/aws-secret-stack.git
 
@@ -76,6 +85,9 @@ projects:
 
   stacks/k8s/gitops:
     repo: git@github.com:hops-ops/gitops-stack.git
+
+  stacks/k8s/gitkb:
+    repo: git@github.com:hops-ops/gitkb-stack.git
 
   stacks/k8s/flux-gitops:
     repo: git@github.com:hops-ops/flux-gitops-stack.git
@@ -103,6 +115,9 @@ projects:
 
   charts/openpanel-chart:
     repo: git@github.com:hops-ops/openpanel-chart.git
+
+  charts/gitkb-server:
+    repo: git@github.com:hops-ops/gitkb-server-chart.git
 
   providers/terraform-provider-openpanel:
     repo: git@github.com:hops-ops/terraform-provider-openpanel.git
