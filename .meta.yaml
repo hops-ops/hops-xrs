@@ -69,7 +69,7 @@ projects:
     repo: git@github.com:hops-ops/aws-registry-cache-stack.git
 
   stacks/aws/secret:
-    repo: git@github.com:hops-ops/aws-secret-stack.git
+    repo: git@github.com:hops-ops/secret-stack.git
 
   stacks/cloudflare/dns:
     repo: git@github.com:hops-ops/cloudflare-dns-stack.git
