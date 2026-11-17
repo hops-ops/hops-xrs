@@ -128,5 +128,8 @@ projects:
   tenant:
     repo: git@github.com:hops-ops/tenant.git
 
+  client/cloudflare-worker:
+    repo: git@github.com:hops-ops/cloudflare-worker.git
+
   client/webservice:
     repo: git@github.com:hops-ops/webservice.git
